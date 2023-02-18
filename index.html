@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // ? question 1:multi dimensional Arrays
+        var arr = [[1,2,3],[4,5,6],7,8,9,[[10,11,12,[13,14,112]],136,14],];
+        // print out these numbers (10,8,13,136 and 4)
+        console.log(arr[5][0][0]);
+        console.log(arr[3]);
+        console.log(arr[5][0][3][0]);
+        console.log(arr[5][1]);
+        console.log(arr[1][0]);
+
+
+        //Question2: Fill in the blank space with elements in the sentence array
+        // *I am a ------ developer at ------ and i love ------
+
+        var sentence = ["javascript.", "web", "capacityBay"];
+        console.log("I am a "+ sentence[1] + "developer at " + sentence[2]
+         + " and I love " + sentence[0]);
+        
+        // ?Question 3 : use th bracket notation to print out 4th to the last character of "Generalization"
+        
+        
+        var text = ['G','e','n','e','r','a','l','i','z','a','t','i','o','n'];
+        var text = text[text.length-4];
+        console.log(text);
+
+        // ? Questio 4 : create an array and populate it with these strings
+        
+        "orange", "apple", "guava", "lemon";
+        //add these strings  at the begining of the array you created above
+
+        "pea","bannana";
+
+        //add these strings  at the end of the array you created above
+ 
+        "avacado", "mango";
+
+        var fruits = [ 'orange', 'apple', 'guava', 'lemon'];
+        fruits.unshift('pea', bannna);
+        fruits.push('vacado', 'mango')
+        console.log(fruits);
+
+
+
+
+    </script>
+</body>
+</html>
